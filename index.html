@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="flex-row align-items-center justify-content-between wrap">
+        <div class="name logo level-1 accent heading">SB</div>
+        <nav class="menu flex-row align-items-center justify-content-between">
+            <a class="level-3" href="#home">Home</a>
+            <a class="level-3" href="#about">About</a>
+            <a class="level-3" href="#skills">Skills</a>
+            <a class="level-3" href="#projects">Projects</a>
+            <a class="level-3" href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <main>
+        <div class="page home flex-col align-items-start justify-content-center" id="home">
+            <p class="level-2">Hi! I am </p>
+            <h3 class="level-1 heading">SHUBHAM BARWAD</h3>
+            <h3 class="level-1 heading">I BUILD THINGS FOR THE INTERNET!</h3>
+            <p class="level-2">Front-End Developer | Back-End Developer</p>
+            <a href="resources\Shubham_Barwad_Full-Stack_Dev_030523.pdf" class="primary-btn btn btn-2" download="">DOWNLOAD RESUME</a>
+        </div>
+        <div class="page about flex-col align-items-start justify-content-start" id="about">
+            <h3 class="heading">Cool! A whole page <span class="accent">ABOUT</span> me.</h3>
+            <div class="about-info flex-col align-items-stretch justify-content-start gap-3">
+                <p>Hi again! <br> Let me introduce myself. I am Shubham Barwad, a full-stack developer with a passion to "build things for the Internet".
+                    With a belief in ergonomics on web, I push myself to build web-applications that are easy for the user to naviagate and intuitive.
+                    My main goal is to build products that are well-designed, funtional, easy to use, responsive and ergonomic.
+                    My dream is to continually work on perfecting myself as a developer and make considerable contribution in the field! 
+                </p>
+                <p class="sub-heading">Education and Time Line</p>
+                <div class="line-div">
+                    <div class="line flex-row align-items-start justify-content-around gap-3">
+                        <div class="timeline-items flex-col align-items-center justify-content-start gap-1">
+                            <div class="dot"></div>
+                            <div class="flex-col align-items-center">
+                                <p class="year">year: 2020</p>
+                                <p class="level-3"><strong>Bachelor of Engineering</strong></p>
+                                <p class="timeline-info level-4">Completed my bachelor of engineering in 2020 from University of Mumbai.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-items flex-col align-items-center justify-content-start gap-1">
+                            <div class="dot"></div>
+                            <div class="flex-col align-items-center">
+                                <p class="year">Ongoing</p>
+                                <p class="level-3"><strong>Full-Stack Web Development</strong></p>
+                                <p class="timeline-info level-4">I am currently engaged in comprehensive Full-Stack web development training, which encompasses both frontend and
+                                    backend development. I am aquiring extensive knowledge and honing my skills in this period, actively working on exciting projects.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-items flex-col align-items-center justify-content-start gap-1">
+                            <div class="dot"></div>
+                            <div class="flex-col align-items-center">
+                                <p class="year">year: 2023</p>
+                                <p class="level-3"><strong>Intership: Skill-Lync<br>(Full-Stack Developer)</strong></p>
+                                <p class="timeline-info level-4">Sharpened my skills as a Full-Stack developer by putting the knowledge I gained into creating some real life projects, which are mentioned in the next section.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="skills">
+            <h3 class="heading">The <span class="accent">Skills</span> I am perfecting...</h3>
+            <div class="skills-info flex-row align-items-center justify-content-center wrap gap-3">
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">HTML5</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">90%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">CSS3</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">90%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">Bootstrap</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">70%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">Javascript (ES6+)</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">80%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">React.js & Next.js</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">60%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-60"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">Java</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">80%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">Springboot & Microservices</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">70%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">MYSQL & MongoDB</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">70%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">GIT</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">70%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-70"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex-col align-items-start justify-content-between gap-1">
+                    <p class="level-1">Docker</p>
+                    <div class="skill-bar-div-percent flex-row gap-1 flex-row align-items-center">
+                        <p class="level-3">50%</p>
+                        <div class="skill-bar">
+                            <div class="bar-fill bar-fill-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="projects">
+            <h3 class="heading">Some of the <span class="accent">Projects</span> that I worked on...</h3>
+            <!-- <div class="swiper-parent align-items-center justify-content-center flex-row"> -->
+                <div class="swiper vehicles-slider">
+                    <div class="swiper-wrapper">
+        
+                        <div class="swiper-slide box">
+                            <img src="resources/appetite.gif" alt="">
+                            <div class="content">
+                                <h3 class="heading-2"><span class="accent">Appetite.</span> - Order Food Online</h3>
+                                <p>Full-Stack Project</p>
+                                <p class="level-4">
+                                    <span class="fas fa-circle"></span> Next.js
+                                    <span class="fas fa-circle"></span> SpringBoot
+                                    <span class="fas fa-circle"></span> Axios
+                                    <span class="fas fa-circle"></span> O-Auth
+                                    <span class="fas fa-circle"></span> SQL
+                                </p>
+                                <a href="https://github.com/ShubhamBarwad/Appetite-Services" class="btn btn-2">check out</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="resources/beano.gif" alt="">
+                            <div class="content">
+                                <h3 class="heading-2"><span class="accent">beano.</span> -Social Media Website</h3>
+                                <p>Full-Stack Project</p>
+                                <p class="level-4">
+                                    <span class="fas fa-circle"></span> Next.js
+                                    <span class="fas fa-circle"></span> SpringBoot
+                                    <span class="fas fa-circle"></span> Axios
+                                    <span class="fas fa-circle"></span> O-Auth
+                                    <span class="fas fa-circle"></span> SQL
+                                </p>
+                                <a href="https://github.com/ShubhamBarwad/beano." class="btn btn-2">check out</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="resources/SnakesLadder.png" alt="">
+                            <div class="content">
+                                <h3 class="heading-2"><span class="accent">Snakes & Ladder</span> - Console based game.</h3>
+                                <p>Core Java Project</p>
+                                <p class="level-4">
+                                    <span class="fas fa-circle"></span> Java
+                                    <span class="fas fa-circle"></span> Concepts of OOPS
+                                </p>
+                                <a href="https://github.com/ShubhamBarwad/Snake-Ladder-Game" class="btn btn-2">check out</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="resources/Calculator.gif" alt="">
+                            <div class="content">
+                                <h3 class="heading-2"><span class="accent">Calculator</span> App</h3>
+                                <p>Front-End Project</p>
+                                <p class="level-4">
+                                    <span class="fas fa-circle"></span> HTML5
+                                    <span class="fas fa-circle"></span> CSS3
+                                    <span class="fas fa-circle"></span> Javascript
+                                </p>
+                                <a href="https://github.com/ShubhamBarwad/Calculator-Frontend" class="btn btn-2">check out</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="resources/ProjectManagement.gif" alt="">
+                            <div class="content">
+                                <h3 class="heading-2"><span class="accent">WorkON</span> - Project Management System</h3>
+                                <p>Front-End Project</p>
+                                <p class="level-4">
+                                    <span class="fas fa-circle"></span> HTML5
+                                    <span class="fas fa-circle"></span> CSS3
+                                    <span class="fas fa-circle"></span> Javascript
+                                    <span class="fas fa-circle"></span> Local Storage
+                                </p>
+                                <a href="https://github.com/ShubhamBarwad/Project-Management-System" class="btn btn-2">check out</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="resources/CosmicRadiation.gif" alt="">
+                            <div class="content">
+                                <h3 class="heading-2"><span class="accent">CosmicRadiation</span> - Proprietary Theme</h3>
+                                <p>Front-End Project</p>
+                                <p class="level-4">
+                                    <span class="fas fa-circle"></span> HTML5
+                                    <span class="fas fa-circle"></span> CSS3
+                                    <span class="fas fa-circle"></span> Javascript
+                                    <span class="fas fa-circle"></span> UI/UX
+                                    <span class="fas fa-circle"></span> Swiper.js
+                                </p>
+                                <a href="https://github.com/ShubhamBarwad/MyPorfile-V1" class="btn btn-2">check out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            <!-- </div> -->
+            
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        </div>
+        <div class="page contact" id="contact">
+            <h3 class="heading">I'd be previlidged to <span class="accent">hear</span> from you!</h3>
+            <div class="flex-row align-items-start justify-content-between content-items gap-2">
+                <div class="flex-col align-items-start gap-2 wrap contact-form-div">
+                    <p class="level-3 contact-text">Ask me anything about my work. I am passionate about web-development. I look forward to discussing potential opportunities!
+                        You can call me, or just leave me an email, I will call you.
+                        <br><span class="accent">#readytowork</span>
+                    </p>
+                    <div class="flex-row justify-content-between align-items-center personal-info">
+                        <p><i class="fi fi-rr-marker accent"></i><strong>Location: </strong></p>
+                        <p>Navi Mumbai</p>
+                    </div>
+                    <div class="flex-row justify-content-between align-items-center personal-info">
+                        <p><i class="fi fi-rr-at accent"></i><strong>email: </strong></p>
+                        <p>sbarwad20595@gmail.com</p>
+                    </div>
+                    <div class="flex-row justify-content-between align-items-center personal-info">
+                        <p><i class="fi fi-rr-phone-flip accent"></i><strong>Mobile No.: </strong></p>
+                        <p>+91-7020402718</p>
+                    </div>
+                </div>
+                
+                <form onsubmit="sendEmail(); reset(); return false;" class="contact-form flex-row align-items-start justify-content-between wrap gap-1">
+                    <input class="w-50 box level-3" type="text" name="name" id="name" placeholder="Name" required>
+                    <input class="w-50 box level-3" type="email" name="email" id="email" placeholder="Email" required>
+                    <input class="w-100 box level-3" type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <textarea class="w-100 box level-3" name="message" id="message" cols="30" rows="10" placeholder="Leave a Message" required></textarea>
+                    <button type="submit" class="btn btn-2">Send</button>
+                </form>
+            </div>
+            
+        </div>
+    </main>
+</body>
+
+</html>
