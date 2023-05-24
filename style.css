@@ -231,6 +231,10 @@ header{
     box-shadow: 10px 0 20px black;
     z-index: 9999;
 }
+.no-underline::after{
+    text-decoration: none !important;
+    display: none !important;
+}
 .logo{
     /* font-family: 'Roboto Mono', monospace; */
     letter-spacing: 5px;
